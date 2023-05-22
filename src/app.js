@@ -10,7 +10,5 @@ const generateDomain = () => {
 
   const getRandomDomain = arr => arr[Math.floor(Math.random() * arr.length)];
 
-  return `${getRandomDomain(prount)}${getRandomDomain(what)}${getRandomDomain(
-    adj
-  )}${getRandomDomain(domain)}`;
+  return `${getRandomDomain(prount)}${getRandomDomain(what)}${getRandomDomain(adj)}${getRandomDomain(domain)}`;
 };
